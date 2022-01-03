@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="img/favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.1" />
+	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<div class="sidebar-page sidebar-page_left">
+			<div class="sidebar-page__head">
+				<a href="#" class="logo">
+					<img src="img/logo.svg" alt="alt">
+				</a>
+			</div>
+			<ul class="sidebar-nav">
+				<li><a href="#">Каталог товаров</a></li>
+				<li><a href="#">Наши услуги</a></li>
+				<li><a href="#">Аренда техники</a></li>
+				<li><a href="#">Прайс-лист</a></li>
+				<li><a href="#">Калькулятор доставки</a></li>
+			</ul>
+		</div>
+
+		<div class="sidebar-page sidebar-page_right">
+			<div class="sidebar-page__head">
+				<div class="sidebar-page__contacts">
+					<a href="tel:+79789598545" class="link-phone">+7 (978) 959-85-45</a>
+					<a href="mailto:zastroymarket@yandex.ru" class="link-email">zastroymarket@yandex.ru</a>
+				</div>
+				<a href="#" class="btn-phone"><i class="far fa-phone-alt"></i></a>
+			</div>
+			<div class="sidebar-page__content">
+				<ul class="sidebar-nav">
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Покупателям</a></li>
+					<li><a href="#">Производители</a></li>
+					<li><a href="#">Советы и статьи</a></li>
+					<li><a href="#">Оплата и доставка</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<div class="sidebar-page__buttons">
+					<div class="buttons-fixed">
+						<a href="#" class="btn-fixed"><img src="img/bascket.svg" alt="alt"><span class="btn-fixed__value">2</span></a>
+						<a href="#" class="btn-fixed"><img src="img/user.svg" alt="alt"></a>
+						<a href="#" class="btn-fixed"><img src="img/options.svg" alt="alt"></a>
+						<a href="#" class="btn-fixed"><img src="img/heart.svg" alt="alt"></a>
+					</div>
+					<ul class="list-social-fixed">
+						<li><a href="#" class="btn-fixed"><i class="fab fa-whatsapp"></i></a></li>
+						<li><a href="#" class="btn-fixed"><i class="fab fa-viber"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="mobile-buttons">
+			<div class="buttons-fixed">
+				<a href="#" class="btn-fixed"><img src="img/bascket.svg" alt="alt"><span class="btn-fixed__value">2</span></a>
+				<a href="#" class="btn-fixed"><img src="img/user.svg" alt="alt"></a>
+				<a href="#" class="btn-fixed"><img src="img/options.svg" alt="alt"></a>
+				<a href="#" class="btn-fixed"><img src="img/heart.svg" alt="alt"></a>
+			</div>
+		</div>
+
+		<header class="header">
+			<div class="container">
+				<div class="header__wrap">
+					<div class="descr-logo">Продажа стройматериалов и аренда спецтехники</div>
+					<div class="search-form">
+						<form>
+							<input type="text" required="required">
+							<button class="btn-search"><i class="far fa-search"></i></button>
+						</form>
+					</div>
+					<div class="header__contacts"><strong>Симферополь,</strong> Фонтаны, ул. Чкалова, 60</div>
+				</div>
+				<div class="header-mobile">
+					<span class="btn_nav">
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</span>
+					<a href="#" class="logo">
+						<img src="img/logo.png" alt="alt">
+					</a>
+					<a href="#" class="btn-phone"><i class="fal fa-phone-alt"></i></a>
+				</div>
+			</div>
+			<div class="mobile-menu">
+				<div class="search-form">
+					<form>
+						<input type="text" required="required">
+						<button class="btn-search"><i class="far fa-search"></i></button>
+					</form>
+				</div>
+				<ul class="menu">
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Каталог товаров</a></li>
+					<li><a href="#">Покупателям</a></li>
+					<li><a href="#">Производители</a></li>
+					<li><a href="#">Советы и статьи</a></li>
+					<li><a href="#">Оплата и доставка</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">Наши услуги</a></li>
+					<li><a href="#">Аренда техники</a></li>
+					<li><a href="#">Прайс-лист</a></li>
+					<li><a href="#">Калькулятор доставки</a></li>
+				</ul>
+				<a href="tel:+79789598545" class="link-phone">+7 (978) 959-85-45</a>
+				<br>
+				<a href="mailto:zastroymarket@yandex.ru" class="link-email">zastroymarket@yandex.ru</a>
+				<ul class="list-social-simple">
+					<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+					<li><a href="#"><i class="fab fa-viber"></i></a></li>
+				</ul>
+			</div>
+		</header>
+
+		<section class="billbord">
+			<div class="container">
+				<div class="billbord-wrap">
+					<div class="billbord-content">
+						<h1 class="title-big">Продажа сыпучих стройматериалов <div>с доставкой <span>за 24 часа</span> и экономией <span>до 20%</span></div></h1>
+						<div class="descr-big">Сертифицированный песок, щебень, отсев напрямую с карьеров</div>
+						<form>
+							<div class="phone-form">
+								<div class="item-form">
+									<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+								</div>
+								<button class="btn-main">БЫСТРАЯ ЗАЯВКА</button>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" required="required" checked="checked" />
+									<span>Согласие на обработку персональных данных</span>
+								</label>
+							</div>
+						</form>
+					</div>
+					<ul class="slider-billbord arrows-bottom">
+						<li>
+							<div class="slider-billbord__item">
+								<img src="img/billbord1.jpg" alt="alt">
+							</div>
+						</li>
+						<li>
+							<div class="slider-billbord__item">
+								<img src="img/billbord1.jpg" alt="alt">
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="services">
+			<div class="container">
+				<div class="row row_services">
+					<div class="col-md-4">
+						<div class="service-block">
+							<div class="title-middle">Продажа строительных материалов</div>
+							<a href="#" class="link-simple">Узнать подробнее</a>
+							<div class="service-block__image">
+								<img src="img/serv1.png" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="service-block">
+							<div class="title-middle">Аренда спецтехники <br>в Симферополе</div>
+							<a href="#" class="link-simple">Узнать подробнее</a>
+							<div class="service-block__image">
+								<img src="img/serv2.png" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="service-block">
+							<div class="title-middle">Земляные работы <br>и демонтаж</div>
+							<a href="#" class="link-simple">Узнать подробнее</a>
+							<div class="service-block__image">
+								<img src="img/serv3.png" alt="alt">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="categories">
+			<div class="container">
+				<div class="head-section">
+					<div>
+						<h2 class="title-section">Категории товаров</h2>
+					</div>
+					<a href="#" class="btn-main btn-main_simple">Все категории</a>
+				</div>
+				<div class="row row_categories">
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-category">
+							<a href="#" class="item-category__title">Инертные материалы</a>
+							<ul>
+								<li><a href="#">Название материала 1</a></li>
+								<li><a href="#">Название материала 2</a></li>
+								<li><a href="#">Название материала 3</a></li>
+							</ul>
+							<a href="#" class="btn-transparent">Еще 15 категорий</a>
+							<div class="item-category__image">
+								<img src="img/category1.png" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-category">
+							<a href="#" class="item-category__title">Крепёжные материалы</a>
+							<ul>
+								<li><a href="#">Название материала 1</a></li>
+								<li><a href="#">Название материала 2</a></li>
+								<li><a href="#">Название материала 3</a></li>
+							</ul>
+							<a href="#" class="btn-transparent">Еще 15 категорий</a>
+							<div class="item-category__image">
+								<img src="img/category2.png" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-category">
+							<a href="#" class="item-category__title">Сантехника</a>
+							<ul>
+								<li><a href="#">Название материала 1</a></li>
+								<li><a href="#">Название материала 2</a></li>
+								<li><a href="#">Название материала 3</a></li>
+							</ul>
+							<a href="#" class="btn-transparent">Еще 15 категорий</a>
+							<div class="item-category__image">
+								<img src="img/category3.png" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-category">
+							<a href="#" class="item-category__title">Лакокрасочная продукция</a>
+							<ul>
+								<li><a href="#">Название материала 1</a></li>
+								<li><a href="#">Название материала 2</a></li>
+								<li><a href="#">Название материала 3</a></li>
+							</ul>
+							<a href="#" class="btn-transparent">Еще 15 категорий</a>
+							<div class="item-category__image">
+								<img src="img/category4.png" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-category">
+							<a href="#" class="item-category__title">Строительная химия</a>
+							<ul>
+								<li><a href="#">Название материала 1</a></li>
+								<li><a href="#">Название материала 2</a></li>
+								<li><a href="#">Название материала 3</a></li>
+							</ul>
+							<a href="#" class="btn-transparent">Еще 15 категорий</a>
+							<div class="item-category__image">
+								<img src="img/category5.png" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-category">
+							<a href="#" class="item-category__title">Хозтовары</a>
+							<ul>
+								<li><a href="#">Название материала 1</a></li>
+								<li><a href="#">Название материала 2</a></li>
+								<li><a href="#">Название материала 3</a></li>
+							</ul>
+							<a href="#" class="btn-transparent">Еще 15 категорий</a>
+							<div class="item-category__image">
+								<img src="img/category6.png" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-category">
+							<a href="#" class="item-category__title">Отделочные материалы</a>
+							<ul>
+								<li><a href="#">Название материала 1</a></li>
+								<li><a href="#">Название материала 2</a></li>
+								<li><a href="#">Название материала 3</a></li>
+							</ul>
+							<a href="#" class="btn-transparent">Еще 15 категорий</a>
+							<div class="item-category__image">
+								<img src="img/category7.png" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-category">
+							<a href="#" class="item-category__title">Электрика</a>
+							<ul>
+								<li><a href="#">Название материала 1</a></li>
+								<li><a href="#">Название материала 2</a></li>
+								<li><a href="#">Название материала 3</a></li>
+							</ul>
+							<a href="#" class="btn-transparent">Еще 15 категорий</a>
+							<div class="item-category__image">
+								<img src="img/category8.png" alt="alt">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="catalog">
+			<div class="container">
+				<div class="head-section">
+					<div>
+						<h2 class="title-section">Распродажа строительных материалов</h2>
+						<div class="title-small">Успейте купить строительные материалы в магазине Za Stroy со скидкой до 50%</div>
+					</div>
+					<a href="#" class="btn-main btn-main_simple">Все товары</a>
+				</div>
+				<ul class="slider-catalog">
+					<li>
+						<div class="item-catalog">
+							<div class="catalog-statuses">
+								<div class="status">-20%</div>
+							</div>
+							<div class="catalog-buttons">
+								<a href="#" class="btn-catalog"><i class="far fa-heart"></i></a>
+								<a href="#" class="btn-catalog"><img src="img/filter2.svg" alt="alt"></a>
+							</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="catalog-info">
+								<div class="articul">Арт.: 123456</div>
+								<div class="availability">В наличии</div>
+							</div>
+							<a href="#" class="item-catalog__name">Водонагреватель накопительный ATLANTIC ...</a>
+							<div class="catalog-prices">
+								<div class="price-old">21 605 Р</div>
+								<div class="price-main">18 364 Р</div>
+							</div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-main">в корзину</a>
+							</div>
+							<div class="item-catalog__bottom">
+								<a href="#" class="btn-block">Купить в один клик</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="catalog-statuses">
+								<div class="status">-20%</div>
+							</div>
+							<div class="catalog-buttons">
+								<a href="#" class="btn-catalog"><i class="far fa-heart"></i></a>
+								<a href="#" class="btn-catalog"><img src="img/filter2.svg" alt="alt"></a>
+							</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="catalog-info">
+								<div class="articul">Арт.: 123456</div>
+								<div class="availability">В наличии</div>
+							</div>
+							<a href="#" class="item-catalog__name">Водонагреватель накопительный ATLANTIC ...</a>
+							<div class="catalog-prices">
+								<div class="price-old">21 605 Р</div>
+								<div class="price-main">18 364 Р</div>
+							</div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-main">в корзину</a>
+							</div>
+							<div class="item-catalog__bottom">
+								<a href="#" class="btn-block">Купить в один клик</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="catalog-statuses">
+								<div class="status">-20%</div>
+							</div>
+							<div class="catalog-buttons">
+								<a href="#" class="btn-catalog"><i class="far fa-heart"></i></a>
+								<a href="#" class="btn-catalog"><img src="img/filter2.svg" alt="alt"></a>
+							</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="catalog-info">
+								<div class="articul">Арт.: 123456</div>
+								<div class="availability">В наличии</div>
+							</div>
+							<a href="#" class="item-catalog__name">Водонагреватель накопительный ATLANTIC ...</a>
+							<div class="catalog-prices">
+								<div class="price-old">21 605 Р</div>
+								<div class="price-main">18 364 Р</div>
+							</div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-main">в корзину</a>
+							</div>
+							<div class="item-catalog__bottom">
+								<a href="#" class="btn-block">Купить в один клик</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="catalog-statuses">
+								<div class="status">-20%</div>
+							</div>
+							<div class="catalog-buttons">
+								<a href="#" class="btn-catalog"><i class="far fa-heart"></i></a>
+								<a href="#" class="btn-catalog"><img src="img/filter2.svg" alt="alt"></a>
+							</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="catalog-info">
+								<div class="articul">Арт.: 123456</div>
+								<div class="availability">В наличии</div>
+							</div>
+							<a href="#" class="item-catalog__name">Водонагреватель накопительный ATLANTIC ...</a>
+							<div class="catalog-prices">
+								<div class="price-old">21 605 Р</div>
+								<div class="price-main">18 364 Р</div>
+							</div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-main">в корзину</a>
+							</div>
+							<div class="item-catalog__bottom">
+								<a href="#" class="btn-block">Купить в один клик</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="catalog-statuses">
+								<div class="status">-20%</div>
+							</div>
+							<div class="catalog-buttons">
+								<a href="#" class="btn-catalog"><i class="far fa-heart"></i></a>
+								<a href="#" class="btn-catalog"><img src="img/filter2.svg" alt="alt"></a>
+							</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="catalog-info">
+								<div class="articul">Арт.: 123456</div>
+								<div class="availability">В наличии</div>
+							</div>
+							<a href="#" class="item-catalog__name">Водонагреватель накопительный ATLANTIC ...</a>
+							<div class="catalog-prices">
+								<div class="price-old">21 605 Р</div>
+								<div class="price-main">18 364 Р</div>
+							</div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-main">в корзину</a>
+							</div>
+							<div class="item-catalog__bottom">
+								<a href="#" class="btn-block">Купить в один клик</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="calculation">
+			<div class="container">
+				<div class="calculation-block">
+					<div class="calculation-block__content">
+						<h2 class="title-section">Получите <span>точный расчет</span> партии материалов с доставкой в течение 30 секунд</h2>
+						<div class="title-small">Оставьте свой телефон и мы предложим Вам условия поставки, от которых вы не сможете отказаться!</div>
+						<form>
+							<div class="row row_form">
+								<div class="col-md-4">
+									<div class="item-form">
+										<input type="text" placeholder="Ваше имя" required="required">
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="item-form">
+										<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+									</div>
+								</div>
+								<div class="col-md-4">
+									<button class="btn-main">ПОЛУЧИТЬ РАСЧЕТ</button>
+								</div>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" required="required" checked="checked" />
+									<span>Согласие на обработку персональных данных</span>
+								</label>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="catalog">
+			<div class="container">
+				<div class="head-section">
+					<div>
+						<h2 class="title-section">Инертные материалы</h2>
+						<div class="title-small">Сертифицированный песок, щебень, отсев с доставкой самосвалами напрямую с карьеров</div>
+					</div>
+					<a href="#" class="btn-main btn-main_simple">Все товары</a>
+				</div>
+				<ul class="slider-catalog slider-catalog_page">
+					<li>
+						<div class="item-catalog item-catalog_page">
+							<div class="catalog-statuses">
+								<div class="status status_red">хит</div>
+								<div class="status status_like"><i class="far fa-thumbs-up"></i></div>
+							</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="catalog-info">
+								<div class="articul"></div>
+								<div class="availability">В наличии</div>
+							</div>
+							<a href="#" class="item-catalog__name">Строительный песок карьерный россыпью</a>
+							<div class="catalog-prices">
+								<div class="price-old">21 605 Р</div>
+								<div class="price-main">700 Р/м<sup>3</sup></div>
+							</div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-main">в корзину</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog item-catalog_page">
+							<div class="catalog-statuses">
+								<div class="status status_red">хит</div>
+								<div class="status status_like"><i class="far fa-thumbs-up"></i></div>
+							</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="catalog-info">
+								<div class="articul"></div>
+								<div class="availability">В наличии</div>
+							</div>
+							<a href="#" class="item-catalog__name">Строительный песок карьерный россыпью</a>
+							<div class="catalog-prices">
+								<div class="price-old">21 605 Р</div>
+								<div class="price-main">700 Р/м<sup>3</sup></div>
+							</div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-main">в корзину</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog item-catalog_page">
+							<div class="catalog-statuses">
+								<div class="status status_red">хит</div>
+								<div class="status status_like"><i class="far fa-thumbs-up"></i></div>
+							</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="catalog-info">
+								<div class="articul"></div>
+								<div class="availability">В наличии</div>
+							</div>
+							<a href="#" class="item-catalog__name">Строительный песок карьерный россыпью</a>
+							<div class="catalog-prices">
+								<div class="price-old">21 605 Р</div>
+								<div class="price-main">700 Р/м<sup>3</sup></div>
+							</div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-main">в корзину</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog item-catalog_page">
+							<div class="catalog-statuses">
+								<div class="status status_red">хит</div>
+								<div class="status status_like"><i class="far fa-thumbs-up"></i></div>
+							</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="catalog-info">
+								<div class="articul"></div>
+								<div class="availability">В наличии</div>
+							</div>
+							<a href="#" class="item-catalog__name">Строительный песок карьерный россыпью</a>
+							<div class="catalog-prices">
+								<div class="price-old">21 605 Р</div>
+								<div class="price-main">700 Р/м<sup>3</sup></div>
+							</div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-main">в корзину</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog item-catalog_page">
+							<div class="catalog-statuses">
+								<div class="status status_red">хит</div>
+								<div class="status status_like"><i class="far fa-thumbs-up"></i></div>
+							</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="catalog-info">
+								<div class="articul"></div>
+								<div class="availability">В наличии</div>
+							</div>
+							<a href="#" class="item-catalog__name">Строительный песок карьерный россыпью</a>
+							<div class="catalog-prices">
+								<div class="price-old">21 605 Р</div>
+								<div class="price-main">700 Р/м<sup>3</sup></div>
+							</div>
+							<div class="item-catalog__buttons">
+								<div class="quantity">
+									<div class="quantity-button quantity-down">–</div>
+									<input type="number" min="1" step="1" value="1">
+									<div class="quantity-button quantity-up">+</div>
+								</div>
+								<a href="#" class="btn-main">в корзину</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="brands">
+			<div class="container">
+				<div class="brands-block">
+					<h2 class="title-section">Выберите своего производителя</h2>
+					<ul class="slider-brands">
+						<li>
+							<a href="#" class="item-brand">
+								<img src="img/brand1.png" alt="alt">
+							</a>
+						</li>
+						<li>
+							<a href="#" class="item-brand">
+								<img src="img/brand2.png" alt="alt">
+							</a>
+						</li>
+						<li>
+							<a href="#" class="item-brand">
+								<img src="img/brand3.png" alt="alt">
+							</a>
+						</li>
+						<li>
+							<a href="#" class="item-brand">
+								<img src="img/brand4.png" alt="alt">
+							</a>
+						</li>
+						<li>
+							<a href="#" class="item-brand">
+								<img src="img/brand5.png" alt="alt">
+							</a>
+						</li>
+						<li>
+							<a href="#" class="item-brand">
+								<img src="img/brand1.png" alt="alt">
+							</a>
+						</li>
+					</ul>
+					<div class="bottom-brands">
+						<a href="#" class="btn-main btn-main_simple">Все производители</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="advantages">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<img src="img/img_advantage.jpg" alt="alt">
+					</div>
+					<div class="col-lg-7 advantages__right">
+						<h2 class="title-section">Почему с нами выгодно работать?</h2>
+						<div class="title-small">У нас вы всегда сможете найти недорогие и качественные стройматериалы в розницу и оптом. Работаем так, чтобы вы не беспокоились о качестве и сроках</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="item-advantage">
+									<div class="item-advantage__head">
+										<div class="icon-page">
+											<img src="img/weight.png" alt="alt">
+										</div>
+										<div class="title-small">Гарантируем честный вес продукции</div>
+									</div>
+									<p>Работаем официально с постоянным парком автомобилей. У нас обязательный весовой контроль при загрузке материала</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="item-advantage">
+									<div class="item-advantage__head">
+										<div class="icon-page">
+											<img src="img/prize.png" alt="alt">
+										</div>
+										<div class="title-small">Работаем на рынке уже 19 лет</div>
+									</div>
+									<p>Мы не одноразовая компания-призрак. Работаем на рынке сыпучих стройматериалов, земляных работ и аренды спецтехники с 2002 года</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="item-advantage">
+									<div class="item-advantage__head">
+										<div class="icon-page">
+											<img src="img/quality-control.png" alt="alt">
+										</div>
+										<div class="title-small">Контроль взвешивания на выгрузке</div>
+									</div>
+									<p>Готовы предоставить контрольное взвешивание при выгрузке материала выборочно за наш счет</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="item-advantage">
+									<div class="item-advantage__head">
+										<div class="icon-page">
+											<img src="img/wallet.png" alt="alt">
+										</div>
+										<div class="title-small">Отсрочка оплаты постоянным клиентам</div>
+									</div>
+									<p>Возможна отсрочка до 30 дней для постоянных клиентов. Если вы делаете 4-5 заказов на протяжении 6 месяцев</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contacts">
+			<div class="container">
+				<div class="contacts-block">
+					<div class="row">
+						<div class="col-lg-5 contacts-block__left">
+							<h2 class="title-section">Контакты</h2>
+							<p><strong>Адрес:</strong> с. Фонтаны, ул. Чкалова, 60А</p>
+							<p><strong>Телефон:</strong> <a href="tel:+79789598545">+7 978 959 85 45</a><a href="#"><i class="fab fa-whatsapp"></i></a><a href="#"><i class="fab fa-viber"></i></a></p>
+							<p><strong>График работы:</strong> Пн - Сб, 08:00 - 18:00</p>
+							<p><strong>E-mail:</strong> <a href="mailto:zastroymarket@yandex.ru">zastroymarket@yandex.ru</a></p>
+							<a href="#" class="btn-main">Проложить маршрут</a>
+						</div>
+						<div class="col-lg-7">
+							<div id="map-contact"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="footer__title footer__title_mob">КАТАЛОГ <i class="fal fa-plus"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Инертные материалы</a></li>
+								<li><a href="#">Крепёжные материалы</a></li>
+								<li><a href="#">Сантехника</a></li>
+								<li><a href="#">Лакокрасочная продукция</a></li>
+								<li><a href="#">Строительная химия</a></li>
+								<li><a href="#">Хозяйственные товары</a></li>
+								<li><a href="#">Отделочные материалы</a></li>
+								<li><a href="#">Электрика</a></li>
+								<li><a href="#">Ручной и электроинструмент</a></li>
+								<li><a href="#">Тепло- и гидроизоляция</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="footer__title footer__title_mob">ПОКУПАТЕЛЯМ <i class="fal fa-plus"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Доставка и оплата</a></li>
+								<li><a href="#">Возврат и обмен товара</a></li>
+							</ul>
+						</div>
+						<div class="footer__title footer__title_mob">компания <i class="fal fa-plus"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Сертификаты</a></li>
+								<li><a href="#">Партнёры</a></li>
+								<li><a href="#">Вакансии</a></li>
+							</ul>
+						</div>
+						<ul>
+							<li><a href="#" class="footer__title">КАЛЬКУЛЯТОР</a></li>
+							<li><a href="#" class="footer__title">советы и статьи</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2">
+						<div class="footer__right">
+							<div class="footer__title footer__title_mob">КОНТАКТЫ <i class="fal fa-plus"></i></div>
+							<div class="footer__content">
+								<p>АР Крым, Симферополь <br>Фонтаны, ул. Чкалова, 60А</p>
+								<p><a href="tel:+79789598545">+7 978 959 85 45</a></p>
+								<p><a href="mailto:zastroymarket@yandex.ru">zastroymarket@yandex.ru</a></p>
+							</div>
+							<div class="footer__title footer__title_mob">реквизиты <i class="fal fa-plus"></i></div>
+							<div class="footer__content">
+								<div class="requisites">
+									<p>ИНН: 7805524271</p>
+									<p>ОГРН: 1107847199844</p>
+									<p>КПП: 780201001</p>
+									<p>ОКАТО: 40265000000</p>
+									<p>ОКПО: 67396289</p>
+									<p>ОКТМО: 40314000000</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-3">
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="col-md-3">
+							<p>г. Симферополь © Copyright 2021 г.</p>
+						</div>
+						<div class="col-md-3">
+							<div class="create">Сделано в <img src="img/copy.svg" alt="alt"></div>
+						</div>
+						<div class="col-md-3">
+							<a href="#" class="btn_top default"><i class="fa fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.1"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<script>
+	$(document).ready(function() {
+		ymaps.ready(init);
+
+		function init() {
+			var myMap = new ymaps.Map('map-contact', {
+				center: [44.895169, 34.074356],
+				zoom: 15
+			}, {
+				searchControlProvider: 'yandex#search'
+			});		
+
+			myPlacemark1 = new ymaps.Placemark([44.895169, 34.074356], {
+				
+			}, {
+				iconLayout: 'default#image',
+				iconImageHref: 'img/pin.svg',
+				hideIconOnBalloonOpen: false,
+				iconImageSize: [26, 35],
+				iconImageOffset: [-13, -35],
+				balloonOffset: [ 0, -35 ]
+			});
+			myMap.controls.remove('searchControl');
+			myMap.behaviors.disable('scrollZoom');
+			myMap.geoObjects.add(myPlacemark1);
+		}
+	});
+</script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
