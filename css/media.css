@@ -96,6 +96,44 @@
 	.slick-next {
 		right: -26px;
 	}
+	.billbord_rent .title-big {
+		font-size: 34px;
+	}
+	.row_rent {
+		margin: 0 -30px;
+	}
+	.row_rent > div {
+		padding: 0 30px;
+		margin-top: 110px;
+	}
+	.item-rent__image::before {
+		border: 141px solid transparent;
+		border-bottom: 72px solid #f8ea61;
+	}
+	.item-rent__image::after {
+		border: 141px solid transparent;
+		border-top: 72px solid #f8ea61;
+	}
+	.questions .title-section {
+		font-size: 25px;
+	}
+	.item-question {
+		margin-bottom: 12px;
+	}
+	.item-question__content {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.main-section__left {
+		padding-top: 0;
+	}
+	.text-main {
+		font-size: 13px;
+		line-height: 19px;
+	}
+	.text-main p {
+		margin-bottom: 14px;
+	}
 }
 @media only screen and (max-width : 1600px) {
 	.sidebar-page {
@@ -130,7 +168,12 @@
 	.sidebar-page_right .sidebar-nav a {
 		padding: 20px 17px;
 	}
-
+	.row_serv .col-lg-3 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 31%;
+		flex: 0 0 31%;
+		max-width: 31%;
+	}
 }
 
 @media only screen and (max-width : 1500px) {
@@ -237,6 +280,31 @@
 	.slick-next {
 		right: -19px;
 	}
+	.billbord_rent .title-big {
+		font-size: 31px;
+	}
+	.item-rent__image::before {
+		border: 125px solid transparent;
+		border-bottom: 58px solid #f8ea61;
+	}
+	.item-rent__image::after {
+		border: 125px solid transparent;
+		border-top: 58px solid #f8ea61;
+	}
+	.item-rent__image img {
+		transform: scale(0.9);
+	}
+	.item-rent__title {
+		font-size: 16px;
+		padding-bottom: 14px;
+		margin-bottom: 16px;
+	}
+	.item-rent__price span {
+		font-size: 18px;
+	}
+	.item-rent__content {
+		padding-top: 80px;
+	}
 }
 @media only screen and (max-width : 1400px) {
 	.container {
@@ -305,6 +373,41 @@
 	}
 	.item-advantage {
 		margin-top: 17px;
+	}
+	.row_services {
+		margin: 0 -5px;
+	}
+	.row_services > div {
+		padding: 0 5px;
+	}
+	.row_rent > div {
+		padding: 0 15px;
+	}
+	.row_rent {
+		margin: 0 -15px;
+	}
+	.item-rent__image::before {
+		border: 118px solid transparent;
+		border-bottom: 56px solid #f8ea61;
+	}
+	.item-rent__image::after {
+		border: 118px solid transparent;
+		border-top: 56px solid #f8ea61;
+	}
+	.item-rent__image {
+		height: 143px;
+	}
+	.item-rent__image img {
+		transform: scale(0.8);
+	}
+	.item-service__content {
+		padding: 33px 20px;
+	}
+	.row_serv {
+		margin: 0 -7px;
+	}
+	.row_serv > div {
+		padding: 0 7px;
 	}
 }
 /* Large Devices, Wide Screens */
@@ -404,6 +507,15 @@
 	.footer {
 		padding-bottom: 70px;
 	}
+	.catalog-rent {
+		margin-top: 0;
+	}
+	.row_rent > div {
+		padding: 0 45px;
+	}
+	.row_rent {
+		margin: 0 -45px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -448,6 +560,38 @@
 	}
 	.contacts {
 		padding-bottom: 45px;
+	}
+	.item-rent {
+		max-width: 290px;
+		margin: 0 auto;
+	}
+	.item-rent__image::before {
+		border: 145px solid transparent;
+		border-bottom: 69px solid #f8ea61;
+	}
+	.item-rent__image::after {
+		border: 145px solid transparent;
+		border-top: 69px solid #f8ea61;
+	}
+	.ask-block {
+		margin-top: 30px;
+		min-height: initial;
+	}
+	.main-section {
+		padding-top: 0;
+		padding-bottom: 40px;
+	}
+	.text-main {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.item-question__content {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.main-section__right,
+	.main-section__left {
+		margin: 0;
 	}
 }
 
@@ -575,6 +719,27 @@
 	.billbord {
 		padding-top: 0;
 	}
+	.billbord_rent .title-big {
+		font-size: 24px;
+	}
+	.item-rent__image img {
+		transform: scale(0.9);
+		position: relative;
+		top: 20px;
+	}
+	.catalog-rent {
+		padding-bottom: 35px;
+	}
+	.row_serv {
+		display: block;
+	}
+	.row_serv .col-lg-3 {
+		max-width: 100%;
+	}
+	.item-question__head {
+		font-size: 16px;
+		padding-left: 15px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -632,6 +797,27 @@
 	}
 	.footer__nav li {
 		margin-bottom: 15px;
+	}
+	.billbord_rent .title-big {
+		font-size: 23px;
+	}
+	.row_rent > div {
+		margin-top: 95px;
+	}
+	.services {
+		padding-top: 30px;
+	}
+	.item-service__image {
+		height: 345px;
+	}
+	.row_serv > div {
+		margin-top: 20px;
+	}
+	.ask-block {
+		height: 400px;
+	}
+	.questions {
+		padding-bottom: 20px;
 	}
 }
 
