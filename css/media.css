@@ -130,6 +130,16 @@
 	.text-main p {
 		margin-bottom: 14px;
 	}
+	.table-price table {
+		font-size: 14px;
+	}
+	.table-price table th span {
+		font-size: 12px;
+	}
+	.text-small {
+		font-size: 12px;
+		line-height: 19px;
+	}
 }
 @media only screen and (max-width : 1600px) {
 	.sidebar-page {
@@ -301,6 +311,13 @@
 	.item-rent__content {
 		padding-top: 80px;
 	}
+	.price-big span {
+    font-size: 26px;
+    margin-left: 27px;
+}
+.price-big {
+    font-size: 16px;
+    }
 }
 @media only screen and (max-width : 1400px) {
 	.container {
@@ -405,6 +422,13 @@
 	.row_serv > div {
 		padding: 0 7px;
 	}
+	.table-price table th span {
+		font-size: 11px;
+	}
+	.form-page {
+    padding: 20px 25px;
+    padding-bottom: 6px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -736,6 +760,59 @@
 		font-size: 16px;
 		padding-left: 15px;
 	}
+	#map {
+		height: 390px;
+	}
+	.tabs {
+		font-size: 16px;
+	}
+	.tabs a {
+		padding: 0 10px;
+		padding-bottom: 10px;
+	}
+	.tabs li {
+		margin-right: 14px;
+	}
+	.table-price {
+		margin-top: 30px;
+		margin-right: -15px;
+		overflow: auto;
+	}
+	.table-price table {
+		width: 800px;
+	}
+	.table-price::-webkit-scrollbar {
+		-webkit-appearance: none;
+	}
+	.table-price::-webkit-scrollbar:vertical {
+		width: 3px;
+	}
+	.table-price::-webkit-scrollbar:horizontal {
+		height: 3px;
+	}
+	.table-price::-webkit-scrollbar-thumb {
+		background-color: rgba(0, 0, 0, .5);
+		border-radius: 10px;
+	}
+	.table-price::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background-color: #ccc;
+	}
+	.breadcrumbs {
+		padding: 15px 0;
+	}
+	.bottom-calculator__top {
+		margin-bottom: 15px;
+		display: block;
+		text-align: center;
+	}
+	.price-big {
+		justify-content: center;
+	}
+	.bottom-calculator .btn-main {
+		padding: 0 30px;
+		margin-bottom: 15px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -815,6 +892,35 @@
 	.questions {
 		padding-bottom: 20px;
 	}
+	#map {
+		margin: 0 -15px;
+		margin-bottom: 25px;
+		width: initial;
+	}
+	.tabs {
+		font-size: 14px;
+		justify-content: space-between;
+	}
+	.tabs li {
+		margin: 0;
+	}
+	.tabs a {
+		padding: 0;
+		padding-bottom: 10px;
+	}
+	.tab-container {
+		padding-top: 20px;
+	}
+	.table-price table {
+		line-height: 18px;
+	}
+	.table-price {
+		margin-top: 20px;
+	}
+	.form-page {
+    padding: 20px 15px;
+    padding-bottom: 3px;
+}
 }
 
 /* Custom, iPhone Retina */
