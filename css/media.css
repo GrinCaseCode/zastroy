@@ -144,6 +144,24 @@
 		font-size: 15px;
 		line-height: 22px;
 	}
+	.card-consultation,
+	.card-right {
+		margin-left: 20px;
+	}
+	.title-block {
+		font-size: 18px;
+	}
+	.card-consultation__left {
+		font-size: 14px;
+		line-height: 24px;
+		max-width: 235px;
+	}
+	.item-catalog_rent {
+		padding-bottom: 24px;
+	}
+	.item-catalog_rent .price-main {
+		font-size: 20px;
+	}
 }
 @media only screen and (max-width : 1600px) {
 	.sidebar-page {
@@ -338,6 +356,9 @@
 		padding-top: 40px;
 		padding-left: 30px;
 	}
+	.card-consultation {
+		margin-left: 0;
+	}
 }
 
 
@@ -461,7 +482,28 @@
 		padding-top: 40px;
 		padding-left: 15px;
 	}
+	.price-rent {
+		font-size: 21px; 
+	}
+	.price-rent span {
+		font-size: 16px;
+	}
+	.card-prices {
+		margin-right: 0;
+	}
+	.wrap-slider-card_rent {
+		padding: 20px;
+	}
+	.slider-rent-nav__item {
+		margin: 0 7px;
+	}
+	.slider-rent-nav {
+		margin: 0 -7px;
+		margin-top: 15px;
+	}
 }
+
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.sidebar-page {
@@ -653,6 +695,12 @@
 	}
 	.contacts-block__left {
 		padding-left: 50px;
+	}
+	.slider-rent-nav__item {
+		height: 105px;
+	}
+	.slider-rent-for__item {
+		height: 315px;
 	}
 }
 
@@ -890,6 +938,12 @@
 		max-width: 100%;
 		margin-top: 0;
 	}
+	.slider-rent-for__item {
+		height: 250px;
+	}
+	.slider-rent-nav__item {
+		height: 78px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1045,7 +1099,25 @@
 	.article {
 		padding-bottom: 20px;
 	}
-
+	.slider-rent-for__item {
+		height: 210px;
+	}
+	.slider-rent-nav__item {
+		height: 65px;
+	}
+	.price-rent {
+		font-size: 18px;
+	}
+	.price-rent span {
+		font-size: 14px;
+	}
+	.card-consultation {
+		margin-top: 20px;
+		display: block;
+	}
+	.card-consultation .btn-transparent {
+		margin-top: 20px;
+	}
 }
 
 /* Custom, iPhone Retina */

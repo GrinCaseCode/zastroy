@@ -1812,6 +1812,8 @@ li .footer__title {
 	font-weight: 700;
 }
 .card-consultation {
+	margin-top: 30px;
+	margin-left: 30px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -2011,3 +2013,18 @@ li .footer__title {
 .section-page .breadcrumbs {
 	padding-top: 0;
 }  
+.slider-catalog_rent .slick-slide {
+	min-height: initial !important;
+}
+.item-catalog_rent {
+	padding-bottom: 24px;
+}
+.item-catalog_rent .price-main {
+	font-size: 24px;	
+}
+.item-catalog_rent .item-catalog__image {
+	height: 215px;
+}
+.card-info .tab-container p {
+	margin-bottom: 15px;
+}
