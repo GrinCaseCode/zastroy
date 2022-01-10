@@ -53,6 +53,7 @@
 		padding: 12px;
 		padding-bottom: 0px;
 	}
+	.row_catalog > div,
 	.slider-catalog .slick-slide {
 		min-height: 522px;
 	}
@@ -161,6 +162,35 @@
 	}
 	.item-catalog_rent .price-main {
 		font-size: 20px;
+	}
+	.row_catalog {
+		margin: 0 -10px;
+	}
+	.row_catalog > div {
+		padding: 0 10px;
+		margin-bottom: -40px;
+	}
+	.item-equipment__image {
+		width: 320px;
+		height: 254px;
+		margin-right: 15px;
+	}
+	.item-equipment__content {
+		padding-right: 20px;
+	}
+	.item-equipment .wrap-features {
+		column-gap: 35px;
+		font-size: 14px;
+	}
+	.item-equipment .price-rent span {
+		font-size: 16px;
+	}
+	.item-equipment .price-rent {
+		font-size: 22px;
+	}
+	.filter-catalog__wrap .item-select {
+		margin-right: 12px;
+		margin-bottom: 12px;
 	}
 }
 @media only screen and (max-width : 1600px) {
@@ -359,6 +389,35 @@
 	.card-consultation {
 		margin-left: 0;
 	}
+	.item-inert__image {
+		width: 190px;
+		margin-right: 18px;
+	}
+	.row_catalog .quantity {
+		width: 95px;
+	}
+	.row_catalog > div {
+		padding: 0 5px;
+		margin-bottom: -55px;
+	}
+	.category-catalog {
+		width: 12%;
+		margin: 0 9px;
+		margin-bottom: 18px;
+		font-size: 13px;
+	}
+	.row_catalog .item-catalog .btn-main {
+		font-size: 11px;
+		padding: 0 8px;
+	}
+	.item-equipment__image {
+		width: 290px;
+		height: 232px;
+	}
+	.item-equipment .wrap-features {
+		column-gap: 20px;
+		font-size: 13px;
+	}
 }
 
 
@@ -501,6 +560,25 @@
 		margin: 0 -7px;
 		margin-top: 15px;
 	}
+	.item-inert .table-price table {
+		font-size: 12px;
+	}
+	.item-inert {
+		margin-bottom: 30px;
+	}
+	.row_catalog .price-main {
+		font-size: 18px;
+	}
+	.row_catalog .price-old {
+		font-size: 16px;
+	}
+	.item-equipment .wrap-features {
+		columns: 1;
+		font-size: 14px;
+	}
+	.item-equipment .price-rent {
+		margin-right: 30px;
+	}
 }
 
 
@@ -610,6 +688,23 @@
 	.row_rent {
 		margin: 0 -45px;
 	}
+	.row_catalog .quantity {
+		width: 99px;
+	}
+	.row_catalog .item-catalog .btn-main {
+		font-size: 13px;
+		padding: 0 13px;
+	}
+	.row_catalog .price-old {
+		font-size: 18px;
+	}
+	.row_catalog .price-main {
+		font-size: 20px;
+	}
+	.item-equipment .wrap-features {
+		columns: 2;
+		font-size: 13px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -701,6 +796,31 @@
 	}
 	.slider-rent-for__item {
 		height: 315px;
+	}
+	.item-inert__image {
+		width: 172px;
+		margin-right: 10px;
+	}
+	.category-catalog {
+		width: 12%;
+		margin: 0 7px;
+		margin-bottom: 17px;
+		font-size: 13px;
+	}
+	.row_catalog > div {
+		min-height: initial;
+		margin-bottom: 20px;
+		padding: 0 10px;
+	}
+	.row_catalog {
+		margin: 0 -10px;
+	}
+	.item-equipment .wrap-features {
+		columns: 1;
+		font-size: 14px;
+	}
+	.item-equipment .price-rent {
+		margin-right: 21px;
 	}
 }
 
@@ -944,11 +1064,55 @@
 	.slider-rent-nav__item {
 		height: 78px;
 	}
+	.item-inert {
+		margin-right: -15px;
+	}
+	.item-inert .table-price table {
+		width: 600px;
+	}
+	.category-catalog {
+		width: 22%;
+	}
+	.item-sorting {
+		margin-left: 0px;
+		margin-right: 20px;
+	}
+	.sorting-wrap__title {
+		margin-right: 20px;
+	}
+	.row_catalog .quantity {
+		width: 115px;
+	}
+	.row_catalog .item-catalog .btn-main {
+		padding: 0 24px;
+	}
+	.item-select .jq-selectbox__trigger {
+		width: 19px;
+	}
+	.item-select .jq-selectbox__select-text {
+		padding-right: 27px;
+	}
+	.item-equipment {
+		padding: 20px;
+		display: block;
+	}
+	.item-equipment__image {
+		margin: 0 auto;
+		width: 100%;
+		height: initial;
+		margin-bottom: 20px;
+	}
+	.item-equipment .title-middle {
+		margin-bottom: 15px;
+	}
+	.item-equipment__content {
+		padding-right: 0;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.descr-big {
+	.descr-big { 
 		font-size: 14px;
 		line-height: 21px;
 	}
@@ -1118,8 +1282,57 @@
 	.card-consultation .btn-transparent {
 		margin-top: 20px;
 	}
+	.filter-catalog {
+		margin: 0 -15px;
+		padding: 15px;
+		margin-top: 15px;
+		margin-bottom: 23px;
+	}
+	.filter-catalog__wrap .item-select {
+		margin-right: 4px;
+		margin-bottom: 9px;
+	}
+	.filter-catalog__wrap .item-select .jq-selectbox__select-text {
+		padding-left: 10px;
+	}
+	.category-catalog {
+		width: 29%;
+	}
+	.category-catalog__image {
+		height: 87px;
+		margin-bottom: 10px;
+	}
+	.modal-wrap {
+		padding: 13px 20px;
+		padding-bottom: 23px;
+	}
+	.item-equipment {
+		padding: 15px;
+		padding-bottom: 22px;
+	}
+	.item-equipment .price-rent {
+		margin-right: 8px;
+		font-size: 16px;
+	}
+	.price-rent span {
+		font-size: 13px;
+	}
+	.item-equipment .wrap-features {
+		margin-bottom: 17px;
+	}
+	.item-inert__image {
+		width: 210px;
+		margin-bottom: 15px;
+	}
+	.item-inert__wrap {
+		display: block;
+	}
 }
-
+@media only screen and (max-width : 335px) {
+	.category-catalog {
+		width: 28%;
+	}
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
