@@ -19,8 +19,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.4" />
-	<link rel="stylesheet" href="css/media.css?ver=1.4" />
+	<link rel="stylesheet" href="css/main.css?ver=1.5" />
+	<link rel="stylesheet" href="css/media.css?ver=1.5" />
 </head>
 <body>
 
@@ -47,7 +47,7 @@
 					<a href="tel:+79789598545" class="link-phone">+7 (978) 959-85-45</a>
 					<a href="mailto:zastroymarket@yandex.ru" class="link-email">zastroymarket@yandex.ru</a>
 				</div>
-				<a href="#" class="btn-phone"><i class="far fa-phone-alt"></i></a>
+				<a href="#modal-delivery" class="btn-phone fancybox"><i class="far fa-phone-alt"></i></a>
 			</div>
 			<div class="sidebar-page__content">
 				<ul class="sidebar-nav">
@@ -105,7 +105,7 @@
 					<a href="#" class="logo">
 						<img src="img/logo.png" alt="alt">
 					</a>
-					<a href="#" class="btn-phone"><i class="far fa-phone-alt"></i></a>
+					<a href="#modal-delivery" class="btn-phone fancybox"><i class="far fa-phone-alt"></i></a>
 				</div> 
 			</div>
 			<div class="mobile-menu">
@@ -137,10 +137,6 @@
 				</ul>
 			</div>
 		</header> 
-
-		<div class="container">
-			
-		</div>
 
 		<section class="section-page">
 			<div class="container">
@@ -253,6 +249,33 @@
 		
 	</div>
 
+	<div id="modal-delivery" class="modal-block">
+		<div class="modal-wrap">
+			<div class="logo-min">
+				<img src="img/logo2.svg" alt="alt">
+			</div>
+			<div class="title-section">Заказать <span>быструю</span> доставку</div>
+			<div class="descr-modal">Оставьте свой телефон и мы предложим Вам условия поставки, от которых вы не сможете отказаться!</div>
+			<div class="modal-form">
+				<form>
+					<div class="item-form">
+						<input type="text" placeholder="Ваше имя" required="required">
+					</div>
+					<div class="item-form">
+						<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+					</div>
+					<button class="btn-main" type="submit">ПОЛУЧИТЬ РАСЧЕТ</button>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" required="required" checked="checked" />
+							<span>Согласие на обработку персональных данных</span>
+						</label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -266,7 +289,7 @@
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.4"></script>
+<script src="js/common.js?ver=1.5"></script>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 <script>
 	$(document).ready(function() {
