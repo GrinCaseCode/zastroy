@@ -192,6 +192,21 @@
 		margin-right: 12px;
 		margin-bottom: 12px;
 	}
+	.item-sertificat__image {
+		height: 241px;
+		margin-bottom: 13px;
+	}
+	.item-sertificat__title {
+		font-size: 13px;
+	}
+	.tab-container_about .item-question__content {
+		font-size: 15px;
+		line-height: 23px;
+	}
+	.block-form {
+		padding: 22px 32px;
+		padding-bottom: 37px;
+	}
 }
 @media only screen and (max-width : 1600px) {
 	.sidebar-page {
@@ -418,6 +433,26 @@
 		column-gap: 20px;
 		font-size: 13px;
 	}
+	.row_sertificats > div {
+		padding: 0 7px;
+	}
+	.row_sertificats {
+		margin: 0 -7px;
+	}
+	.item-sertificat {
+		margin-bottom: 20px;
+	}
+	.item-sertificat__image {
+		height: 233px;
+	}
+	.tab-container_about .item-question__content {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.item-doc {
+		font-size: 17px;
+		line-height: 29px;
+	}
 }
 
 
@@ -579,6 +614,18 @@
 	.item-equipment .price-rent {
 		margin-right: 30px;
 	}
+	.col-page {
+		width: 25%;
+	}
+	.item-sertificat__image {
+		height: 263px;
+	}
+	.tab-container_about .text-bold {
+		margin-bottom: 20px;
+	}
+	.block-form {
+		padding: 22px;
+	}
 }
 
 
@@ -705,6 +752,15 @@
 		columns: 2;
 		font-size: 13px;
 	}
+	.col-page {
+		width: 20%;
+	}
+	.item-sertificat__image {
+		height: 239px;
+	}
+	.block-form {
+		padding: 32px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -821,6 +877,12 @@
 	}
 	.item-equipment .price-rent {
 		margin-right: 21px;
+	}
+	.col-page {
+		width: 25%;
+	}
+	.block-form {
+		margin-top: 20px;
 	}
 }
 
@@ -1108,6 +1170,23 @@
 	.item-equipment__content {
 		padding-right: 0;
 	}
+	.col-page {
+		width: 33%;
+	}
+	.item-sertificat__image {
+		height: 200px;
+	}
+	.tab-container_about .item-question__content {
+		padding: 20px;
+	}
+	.item-question .price-main {
+		margin-bottom: 12px;
+	}
+	.item-doc {
+		font-size: 16px;
+		line-height: 28px;
+		margin-bottom: 12px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1327,6 +1406,26 @@
 	.item-inert__wrap {
 		display: block;
 	}
+	.col-page {
+		width: 50%;
+	}
+	.item-sertificat__image {
+		height: 220px;
+	}
+	.item-sertificat__title {
+		font-size: 12px;
+	}
+	.tab-container_about .item-question__content {
+		padding: 15px;
+	}
+	.item-doc i {
+		font-size: 20px;
+		margin-right: 10px;
+	}
+	.block-form {
+		padding: 20px;
+		padding-bottom: 28px;
+	} 
 }
 @media only screen and (max-width : 335px) {
 	.category-catalog {
