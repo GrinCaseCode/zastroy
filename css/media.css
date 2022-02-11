@@ -247,6 +247,24 @@
 		flex: 0 0 31%;
 		max-width: 31%;
 	}
+
+	/*new*/
+.filter-sidebar {
+	width: 230px;
+}
+.item-filter__content {
+	padding: 0 17px;
+	padding-bottom: 25px;
+}
+.checkbox_catalog {
+	font-size: 13px;
+}
+.item-filter__head {
+    padding: 15px 15px;
+    }
+    .filter-sidebar__close {
+    	padding: 0 17px;
+    }
 }
 
 @media only screen and (max-width : 1500px) {
@@ -626,6 +644,23 @@
 	.block-form {
 		padding: 22px;
 	}
+
+		/*new*/
+.filter-sidebar {
+	width: 195px;
+}
+.irs--flat .irs-from, .irs--flat .irs-to, .irs--flat .irs-single {
+	font-size: 12px;
+}
+.more-filter {
+    font-size: 13px;
+    line-height: 20px;
+    bottom: -30px;
+    }
+    .item-filter__content {
+    padding: 0 13px;
+    padding-bottom: 20px;
+}
 }
 
 
@@ -761,6 +796,28 @@
 	.block-form {
 		padding: 32px;
 	}
+
+	/*new*/
+	.filter-sidebar {
+		position: relative;
+		width: 100%;
+		box-shadow: none;
+		height: initial;
+		overflow: visible;
+	}
+	.filter-block {
+		flex-wrap: wrap;
+	}
+	.checkbox_catalog {
+		font-size: 14px;
+	}
+	.item-filter__head {
+    padding: 15px 22px;
+}
+.item-filter__content {
+    padding: 0 22px;
+    padding-bottom: 20px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -883,6 +940,13 @@
 	}
 	.block-form {
 		margin-top: 20px;
+	}
+	/*new*/
+	.image-card {
+		margin-bottom: 20px;
+	}
+	.card-right_variable {
+		max-width: 100%;
 	}
 }
 
@@ -1187,6 +1251,12 @@
 		line-height: 28px;
 		margin-bottom: 12px;
 	}
+
+	/*new*/
+	.filter-block .sorting-wrap {
+		margin-top: 15px;
+		width: 100%;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1426,6 +1496,10 @@
 		padding: 20px;
 		padding-bottom: 28px;
 	} 
+	/*new*/
+	.image-card {
+		height: 300px;
+	}
 }
 @media only screen and (max-width : 335px) {
 	.category-catalog {
