@@ -18,9 +18,10 @@
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.5" />
-	<link rel="stylesheet" href="css/media.css?ver=1.5" />
+	<link rel="stylesheet" href="css/main.css?ver=1.17" />
+	<link rel="stylesheet" href="css/media.css?ver=1.17" />
 </head>
 <body>
 
@@ -153,33 +154,59 @@
 						<div class="row row_middle">
 							<div class="col-lg-4 col-md-6">
 								<div class="item-form">
-									<input type="text" placeholder="Тип груза" required="required">
+									<select>
+										<option value="1">Тип груза</option>
+										<option value="1">Тип груза</option>
+										<option value="1">Тип груза</option>
+										<option value="1">Тип груза</option>
+									</select>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-6">
 								<div class="item-form">
-									<input type="text" placeholder="Тип фасовки" required="required">
+									<select>
+										<option value="1">Тип фасовки</option>
+										<option value="1">Тип фасовки</option>
+										<option value="1">Тип фасовки</option>
+										<option value="1">Тип фасовки</option>
+									</select>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-6">
 								<div class="item-form">
-									<input type="text" placeholder="Необходимый объем, м³" required="required">
+									<select>
+										<option value="1">Необходимый объем, м³</option>
+										<option value="1">Необходимый объем, м³</option>
+										<option value="1">Необходимый объем, м³</option>
+										<option value="1">Необходимый объем, м³</option>
+									</select>
 								</div>
 							</div>
 							<div class="col-lg-8 col-md-6">
 								<div class="item-form">
-									<input type="text" placeholder="Введите адрес" required="required">
+									<div class="item-form">
+									<select>
+										<option value="1">Введите адрес</option>
+										<option value="1">Введите адрес</option>
+										<option value="1">Введите адрес</option>
+										<option value="1">Введите адрес</option>
+									</select>
+								</div>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-6">
 								<div class="item-form">
-									<input type="text" placeholder="Время доставки" required="required">
+									<select>
+										<option value="1">Время доставки</option>
+										<option value="1">Время доставки</option>
+										<option value="1">Время доставки</option>
+										<option value="1">Время доставки</option>
+									</select>
 								</div>
 							</div>
 						</div>
 					</form>
 				</div>
-				<div id="map"></div>
 				<div class="bottom-calculator">
 					<div class="bottom-calculator__top">
 						<a href="#" class="btn-main">рассчитать стоимость</a>
@@ -187,6 +214,7 @@
 					</div>
 					<div class="text-small">Данная стоимость является примерной. Точную стоимость уточняйте у оператора. Объем 1 машины 12 кубов, расчет более 12 кубов производится отдельно</div>
 				</div>
+				<div id="map"></div>
 			</div>
 		</section>
 
@@ -316,9 +344,9 @@
 <script src="libs/slick-1.5.9/slick/slick.min.js"></script>
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.5"></script>
-
+<script src="js/common.js?ver=1.17"></script>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 <script>
 	$(document).ready(function() {
